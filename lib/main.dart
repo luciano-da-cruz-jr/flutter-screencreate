@@ -13,7 +13,7 @@ class MeuApp extends StatelessWidget {
     return MaterialApp(
       home: Scaffold(
         appBar: AppBar(
-          title: Text('Meu Primeiro App'),
+          title: Center(child: Text('Meu Primeiro App'),),
         ),
       
       body: Column (
